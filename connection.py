@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 # Configure CORS properly for production
 CORS(app, resources={
-    r"/login": {"origins": ["https://your-github-username.github.io"]},
-    r"/signup": {"origins": ["https://your-github-username.github.io"]}
+    r"/login": {"origins": ["https://anirudh05nc.github.io"]},
+    r"/signup": {"origins": ["https://anirudh05nc.github.io"]}
 })
 
 # MongoDB setup
