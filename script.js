@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Configuration
-    const API_BASE_URL = 'https://your-render-app-url.onrender.com'; // Replace with your actual Render URL
+    const API_BASE_URL = 'https://user-login-1-vxok.onrender.com'; // Use your actual URL
     const isLocalDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
     const localApiUrl = 'http://localhost:5000';
     
